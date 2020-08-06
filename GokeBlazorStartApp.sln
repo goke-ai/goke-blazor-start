@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goke.Core", "..\goke\src\Goke.Core\Goke.Core.csproj", "{17172337-A358-48D0-B152-E9E0526EA998}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Lib", "_Lib", "{32398E56-53A0-42EF-8B16-8BCA3A83F57A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goke.BSA.Server", "src\Goke.BSA\Server\Goke.BSA.Server.csproj", "{461D2D4B-D98F-4332-A4CD-B5834E4C6A7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goke.BSA.Client", "src\Goke.BSA\Client\Goke.BSA.Client.csproj", "{3565FA71-17E3-4F23-9B26-E1633F8214F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goke.BSA.Shared", "src\Goke.BSA\Shared\Goke.BSA.Shared.csproj", "{4E29C94E-1826-4579-BBE9-5A9D35980418}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17172337-A358-48D0-B152-E9E0526EA998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17172337-A358-48D0-B152-E9E0526EA998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17172337-A358-48D0-B152-E9E0526EA998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17172337-A358-48D0-B152-E9E0526EA998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461D2D4B-D98F-4332-A4CD-B5834E4C6A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461D2D4B-D98F-4332-A4CD-B5834E4C6A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461D2D4B-D98F-4332-A4CD-B5834E4C6A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461D2D4B-D98F-4332-A4CD-B5834E4C6A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3565FA71-17E3-4F23-9B26-E1633F8214F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3565FA71-17E3-4F23-9B26-E1633F8214F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3565FA71-17E3-4F23-9B26-E1633F8214F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3565FA71-17E3-4F23-9B26-E1633F8214F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E29C94E-1826-4579-BBE9-5A9D35980418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E29C94E-1826-4579-BBE9-5A9D35980418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E29C94E-1826-4579-BBE9-5A9D35980418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E29C94E-1826-4579-BBE9-5A9D35980418}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17172337-A358-48D0-B152-E9E0526EA998} = {32398E56-53A0-42EF-8B16-8BCA3A83F57A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A941519-F94B-450A-976B-1280D1423610}
+	EndGlobalSection
+EndGlobal
